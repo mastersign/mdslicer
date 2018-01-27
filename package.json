@@ -1,0 +1,33 @@
+{
+  "name": "mdslicer",
+  "version": "0.1.0",
+  "description": "splits markdown documents into syntactic blocks",
+  "readme": "README.md",
+  "repository": "mastersign/mdslicer",
+  "main": "./src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "markdown",
+  ],
+  "author": {
+    "name": "Tobias Kiertscher",
+    "email": "dev@mastersign.de",
+    "url": "http://www.mastersign.de"
+  },
+  "bugs": {
+    "url": "https://github.com/mastersign/mdslicer/issues",
+    "email": "dev@mastersign.de"
+  },
+  "homepage": "https://github.com/mastersign/mdslicer#readme",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.0.0",
+    "mdheadline": "^0.2.0"
+  },
+  "devDependencies": {
+    "glob": "^7.0.0",
+  }
+}
