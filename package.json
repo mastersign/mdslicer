@@ -5,12 +5,14 @@
   "readme": "README.md",
   "repository": "mastersign/mdslicer",
   "main": "./src/index.js",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --require babel-core/register"
   },
   "keywords": [
-    "markdown",
+    "markdown"
   ],
   "author": {
     "name": "Tobias Kiertscher",
@@ -25,9 +27,14 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.0.0",
-    "mdheadline": "^0.2.0"
+    "mdheadline": "^0.3.0",
+    "split-stream": "^0.2.0"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "glob": "^7.0.0",
+    "mocha": "^5.0.0",
+    "streamifier": "^0.1.1"
   }
 }
