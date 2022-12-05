@@ -34,7 +34,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "glob": "^7.0.0",
-    "mocha": "^5.0.0",
+    "mocha": "^10.1.0",
     "streamifier": "^0.1.1"
   }
 }
